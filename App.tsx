@@ -2,7 +2,6 @@ import React, { useState, useCallback } from 'react';
 import ControlPanel from './components/ControlPanel';
 import CanvasGenerator from './components/CanvasGenerator';
 import { SalesData, Vendedora } from './types';
-import { Download } from 'lucide-react';
 
 const App: React.FC = () => {
   const [data, setData] = useState<SalesData>({

@@ -28,7 +28,8 @@ const CanvasGenerator: React.FC<CanvasGeneratorProps> = ({ data, templateImageSr
       canvas.height = img.height;
       
       const w = canvas.width;
-      const h = canvas.height;
+      // Height variable removed as it was unused
+      
       // Scale factor based on 1080px width reference
       const s = w / 1080; 
 

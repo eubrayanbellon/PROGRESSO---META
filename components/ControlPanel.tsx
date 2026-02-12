@@ -1,4 +1,4 @@
-import React, { ChangeEvent } from 'react';
+import React from 'react';
 import { Vendedora, SalesData } from '../types';
 import { Upload, User, Target, BarChart3, ChevronRight } from 'lucide-react';
 
